@@ -6,14 +6,17 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.3",
+    "cookie-parser": "^1.4.4",
     "debug": "~2.6.9",
+    "dotenv-extended": "^2.4.0",
     "ejs": "~2.5.7",
-    "express": "~4.16.0",
+    "env": "0.0.2",
+    "express": "^4.16.4",
     "express-session": "^1.15.6",
-    "http-errors": "~1.6.2",
+    "http-errors": "^1.6.3",
     "method-override": "^3.0.0",
-    "morgan": "~1.9.0",
+    "monk": "^6.0.6",
+    "morgan": "^1.9.1",
     "passport": "^0.4.0"
   }
 }

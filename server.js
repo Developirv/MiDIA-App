@@ -18,7 +18,7 @@ var app = express();
 
 
 // load the env 
-require('dotenv').config();
+require('dotenv').load();
 
 // connect to the MongoDB 
 require('./config/database');
